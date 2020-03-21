@@ -1,0 +1,24 @@
+POST http://localhost:8000/v1/shoes
+Content-Type: application/json
+
+[{
+  "brand_name": "nike",
+  "product_name": "에어 조던 1 레트로 하이 OG",
+  "style_code": "555088-030",
+  "size_flag": "MENS",
+  "release_date": "2020/02/29",
+  "price": 170,
+  "price_unit": "dollar",
+  "created_by": "li.dongxun"
+}, {
+  "brand_name": "nike",
+  "product_name": "에어 조던 1 레트로 하이 OG GS",
+  "style_code": "555088-030",
+  "size_flag": "GS",
+  "release_date": "2020/02/29",
+  "price": 170,
+  "price_unit": "dollar",
+  "created_by": "li.dongxun"
+}]
+
+###
